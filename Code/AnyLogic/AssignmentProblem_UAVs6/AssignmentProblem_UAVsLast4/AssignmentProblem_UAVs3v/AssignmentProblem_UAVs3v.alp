@@ -1,0 +1,4185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+*************************************************
+	         AnyLogic Project File 
+*************************************************	         
+-->
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="6.4.1.200910151246" AlpVersion="6.2.3">
+<Model>
+	<Id>1194341545179</Id>
+	<Name><![CDATA[AssignmentProblem_UAVs3v]]></Name>
+	<ExcludeFromBuild>false</ExcludeFromBuild>
+	<EngineVersion>6</EngineVersion>
+	<JavaPackageName><![CDATA[air_defence_system2]]></JavaPackageName>
+	<Dimensions>
+		<!--   =========   Dimension   ========  -->
+		<Dimension>
+			<Id>1310122284598</Id>
+			<Name><![CDATA[XDimensionA]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<Type>enumeration</Type>
+			<Range><![CDATA[]]></Range>
+			<Element>
+				<Id>1310122284579</Id>
+				<Name><![CDATA[A]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>1</Value>
+			</Element>
+			<Element>
+				<Id>1310122284581</Id>
+				<Name><![CDATA[B]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>2</Value>
+			</Element>
+			<Element>
+				<Id>1310122284583</Id>
+				<Name><![CDATA[C]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>3</Value>
+			</Element>
+		</Dimension>
+		<!--   =========   Dimension   ========  -->
+		<Dimension>
+			<Id>1310122284754</Id>
+			<Name><![CDATA[YDimensionA]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<Type>enumeration</Type>
+			<Range><![CDATA[]]></Range>
+			<Element>
+				<Id>1310122284751</Id>
+				<Name><![CDATA[Ai]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>1</Value>
+			</Element>
+			<Element>
+				<Id>1310122284753</Id>
+				<Name><![CDATA[Aai]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>2</Value>
+			</Element>
+			<Element>
+				<Id>0</Id>
+				<Name><![CDATA[Ax]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>3</Value>
+			</Element>
+			<Element>
+				<Id>0</Id>
+				<Name><![CDATA[Ay]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>4</Value>
+			</Element>
+		</Dimension>
+		<!--   =========   Dimension   ========  -->
+		<Dimension>
+			<Id>1310234815218</Id>
+			<Name><![CDATA[XDimensionB]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<Type>enumeration</Type>
+			<Range><![CDATA[]]></Range>
+			<Element>
+				<Id>1310234815204</Id>
+				<Name><![CDATA[A1]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>1</Value>
+			</Element>
+			<Element>
+				<Id>1310234815206</Id>
+				<Name><![CDATA[B1]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>2</Value>
+			</Element>
+			<Element>
+				<Id>1310234815208</Id>
+				<Name><![CDATA[C1]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>3</Value>
+			</Element>
+			<Element>
+				<Id>0</Id>
+				<Name><![CDATA[D1]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>4</Value>
+			</Element>
+		</Dimension>
+		<!--   =========   Dimension   ========  -->
+		<Dimension>
+			<Id>1310234815239</Id>
+			<Name><![CDATA[YDimensionB]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<Type>enumeration</Type>
+			<Range><![CDATA[]]></Range>
+			<Element>
+				<Id>1310234815220</Id>
+				<Name><![CDATA[Bi]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>1</Value>
+			</Element>
+			<Element>
+				<Id>1310234815234</Id>
+				<Name><![CDATA[Bbi]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>2</Value>
+			</Element>
+			<Element>
+				<Id>1310234815236</Id>
+				<Name><![CDATA[X]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>3</Value>
+			</Element>
+			<Element>
+				<Id>1310234815238</Id>
+				<Name><![CDATA[Y]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>4</Value>
+			</Element>
+		</Dimension>
+		<!--   =========   Dimension   ========  -->
+		<Dimension>
+			<Id>1178661665506</Id>
+			<Name><![CDATA[XD]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<Type>range</Type>
+			<Range><![CDATA[0-100]]></Range>
+			<Element>
+				<Id>1178661665501</Id>
+				<Name><![CDATA[1]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>1</Value>
+			</Element>
+			<Element>
+				<Id>1178661665503</Id>
+				<Name><![CDATA[2]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>2</Value>
+			</Element>
+			<Element>
+				<Id>1178661665505</Id>
+				<Name><![CDATA[3]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>3</Value>
+			</Element>
+		</Dimension>
+		<!--   =========   Dimension   ========  -->
+		<Dimension>
+			<Id>1178661692724</Id>
+			<Name><![CDATA[YD]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<Type>range</Type>
+			<Range><![CDATA[0-100]]></Range>
+			<Element>
+				<Id>1178661692719</Id>
+				<Name><![CDATA[1]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>1</Value>
+			</Element>
+			<Element>
+				<Id>1178661692721</Id>
+				<Name><![CDATA[2]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>2</Value>
+			</Element>
+			<Element>
+				<Id>1178661692723</Id>
+				<Name><![CDATA[3]]></Name>
+				<ExcludeFromBuild>false</ExcludeFromBuild>
+				<Value>3</Value>
+			</Element>
+		</Dimension>
+		<!--   =========   Dimension   ========  -->
+		<Dimension>
+			<Id>1310500205127</Id>
+			<Name><![CDATA[CoupleX]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<Type>range</Type>
+			<Range><![CDATA[0-100]]></Range>
+		</Dimension>
+	</Dimensions>
+	<ActiveObjectClasses>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1194341545227</Id>
+			<Name><![CDATA[UAVs]]></Name>
+			<Description><![CDATA[Cel, na kotoruju etot samolet poletit]]></Description> 
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Generic>false</Generic>
+			<GenericParameters><![CDATA[T]]></GenericParameters>
+			<GenericParametersLabel><![CDATA[Generic parameters:]]></GenericParametersLabel>
+			<SamplesToKeep>100</SamplesToKeep>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+
+
+			</AgentProperties>
+
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+				<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+			</DatasetsCreationProperties>
+
+			<Variables>
+				<Variable Class="PlainVariable">
+					<Id>1309901965908</Id>
+					<Name><![CDATA[initialBase]]></Name>
+					<Description><![CDATA[Baza, s kotoroi etot korabl viletit]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>320</X><Y>90</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[AeroBase]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="FlowAuxVariable">
+					<Id>1194341545259</Id>
+					<Name><![CDATA[dist]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>590</X><Y>110</Y>
+					<Label><X>12</X><Y>1</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties External="false" Constant="false" Array="false" Flow="false">
+						<Formula><![CDATA[sqrt( (tx-x)*(tx-x) + (ty-y)*(ty-y) ) // distancija mezhdu celju i samoletom]]></Formula>
+					</Properties>
+				</Variable>
+				<Variable Class="StockVariable">
+					<Id>1194341545264</Id>
+					<Name><![CDATA[y]]></Name>
+					<Description><![CDATA[tekushaja koordinata samoleta]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>560</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Array="false">
+						<Expression><![CDATA[vy]]></Expression>
+						<InitialValue><![CDATA[//get_Main().baseLocations.getValues()[1]]]></InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="StockVariable">
+					<Id>1194341545266</Id>
+					<Name><![CDATA[x]]></Name>
+					<Description><![CDATA[tekushaja koordinata samoleta]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>520</X><Y>160</Y>
+					<Label><X>12</X><Y>1</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Array="false">
+						<Expression><![CDATA[vx]]></Expression>
+						<InitialValue><![CDATA[//get_Main().baseLocations.getArguments()[1]]]></InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="StockVariable">
+					<Id>1194341545268</Id>
+					<Name><![CDATA[vy]]></Name>
+					<Description><![CDATA[skorost' samoleta]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>550</X><Y>200</Y>
+					<Label><X>12</X><Y>1</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Array="false">
+					</Properties>
+				</Variable>
+				<Variable Class="StockVariable">
+					<Id>1194341545270</Id>
+					<Name><![CDATA[vx]]></Name>
+					<Description><![CDATA[skorost' samoleta]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>510</X><Y>200</Y>
+					<Label><X>12</X><Y>1</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Array="false">
+					</Properties>
+				</Variable>
+				<Variable Class="StockVariable">
+					<Id>1309897176531</Id>
+					<Name><![CDATA[tx]]></Name>
+					<Description><![CDATA[koordinata x celi]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>620</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Array="false">
+					</Properties>
+				</Variable>
+				<Variable Class="StockVariable">
+					<Id>1309897184937</Id>
+					<Name><![CDATA[ty]]></Name>
+					<Description><![CDATA[koordinata y celi]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>660</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Array="false">
+					</Properties>
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1194341545281</Id>
+					<Name><![CDATA[v]]></Name>
+					<Description><![CDATA[skorost' samoleta po modulu tak skazat]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>450</X><Y>200</Y>
+					<Label><X>20</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[10]]></DefaultValue>
+						<ParameterEditor>
+							<Id>0</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[v]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1310667244961</Id>
+					<Name><![CDATA[target]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>240</X><Y>90</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[AreaOperation]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310667244959</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+			<Dependences>
+				<PlainDependence SourceId="1194341545264" TargetId="1194341545259" Polarity="0">
+					<Height>25.919022317962252</Height>							
+					<Id>1194341545265</Id>
+					<Name><![CDATA[y -> dist]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Color/>
+				</PlainDependence>
+				<PlainDependence SourceId="1194341545266" TargetId="1194341545259" Polarity="0">
+					<Height>24.084874944161832</Height>							
+					<Id>1194341545267</Id>
+					<Name><![CDATA[x -> dist]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Color/>
+				</PlainDependence>
+				<PlainDependence SourceId="1194341545268" TargetId="1194341545264" Polarity="0">
+					<Height>23.079872407968907</Height>							
+					<Id>1194341545269</Id>
+					<Name><![CDATA[vy -> y]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Color/>
+				</PlainDependence>
+				<PlainDependence SourceId="1194341545270" TargetId="1194341545266" Polarity="0">
+					<Height>21.178177209575914</Height>							
+					<Id>1194341545271</Id>
+					<Name><![CDATA[vx -> x]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Color/>
+				</PlainDependence>
+				<PlainDependence SourceId="1309897176531" TargetId="1194341545259" Polarity="0">
+					<Height>10.0</Height>							
+					<Id>1309897183030</Id>
+					<Name><![CDATA[tx -> dist]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Color/>
+				</PlainDependence>
+				<PlainDependence SourceId="1309897184937" TargetId="1194341545259" Polarity="0">
+					<Height>10.0</Height>							
+					<Id>1309897189124</Id>
+					<Name><![CDATA[ty -> dist]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Color/>
+				</PlainDependence>
+			</Dependences>
+			<StatechartElements>
+				<StatechartElement Class="FinalState" ParentState="ROOT_NODE">
+					<Id>1194341545273</Id>
+					<Name><![CDATA[Final1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>280</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Properties>	
+						<Action><![CDATA[initialBase.capacity++; // esli samolet vernulsya ili ego podbili, uvelichivaem vmestimost aerodroma na 1, t.e. vmestimost pokazivaet skol'ko na tekushij moment u nas imeetsya samoletov na base
+initialBase.remove_aircrafts( this ); // ubiraem samolet iz grafiki]]></Action>
+					</Properties>	
+				</StatechartElement>
+				<StatechartElement Class="State" ParentState="ROOT_NODE">
+					<Id>1194341545278</Id>
+					<Name><![CDATA[FlyOut]]></Name>
+					<Description><![CDATA[Letim domoj]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>20</X><Y>220</Y>
+					<Label><X>14</X><Y>13</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Width="70" Height="20">
+						<FillColor/>
+					</Properties>
+				</StatechartElement>
+				<StatechartElement Class="State" ParentState="ROOT_NODE">
+					<Id>1194341545279</Id>
+					<Name><![CDATA[Flying]]></Name>
+					<Description><![CDATA[Sostojanie - letim na amerikosov]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>20</X><Y>90</Y>
+					<Label><X>10</X><Y>13</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Width="60" Height="20">
+						<FillColor/>
+					</Properties>
+				</StatechartElement>
+				<StatechartElement Class="State" ParentState="ROOT_NODE">
+					<Id>1309941200110</Id>
+					<Name><![CDATA[Observe]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>20</X><Y>160</Y>
+					<Label><X>10</X><Y>20</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Width="70" Height="40">
+						<FillColor/>
+					</Properties>
+				</StatechartElement>
+				<StatechartElement Class="EntryPoint" ParentState="ROOT_NODE">
+					<Id>1194341545272</Id>
+					<Name><![CDATA[aircraftBehaviour]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>40</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>50</Y></Point>
+					</Points>
+					<Properties Target="1194341545279">
+						<Action><![CDATA[initialBase = chooseBase();
+updateVelocity();]]></Action>
+					</Properties>	
+				</StatechartElement>
+				<StatechartElement Class="Transition" ParentState="ROOT_NODE">
+					<Id>1194341545274</Id>
+					<Name><![CDATA[FlownOut]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>240</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>-20</Y></Point>
+						<Point><X>0</X><Y>32</Y></Point>
+					</Points>
+					<Properties Source="1194341545278" Target="1194341545273" Trigger="condition">
+						<Timeout><![CDATA[1]]></Timeout>
+						<Condition><![CDATA[x<initialBase.x //&& y==initialBase.y // tut vot pochemuto chetko ne priletaju po koordinate y.... ]]></Condition>
+						<Rate><![CDATA[1]]></Rate>
+						<MessageType><![CDATA[x > 700]]></MessageType>
+						<DefaultTransition>false</DefaultTransition>
+						<FilterType><![CDATA[unconditionally]]></FilterType>
+						<EqualsExpression><![CDATA[Sample_Message]]></EqualsExpression>
+						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
+					</Properties>	
+				</StatechartElement>
+				<StatechartElement Class="Transition" ParentState="ROOT_NODE">
+					<Id>1194341545275</Id>
+					<Name><![CDATA[MissionInProgress]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>110</Y>
+					<Label><X>0</X><Y>30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>50</Y></Point>
+					</Points>
+					<Properties Source="1194341545279" Target="1309941200110" Trigger="condition">
+						<Action><![CDATA[if ( target != null ){
+  target.destroyThisAsset(); // unichtozhaem cel, vot tut ti mozhesh sdelat' zaderzhku, tipa samolet stoit na meste
+}
+// vstavil tut zaderzhku, tipa kruzhim
+updateVelocityStop();]]></Action>
+						<Timeout><![CDATA[1]]></Timeout>
+						<Condition><![CDATA[dist < 5 // esli doleteli do celi menee chem na 5 metrov]]></Condition>
+						<Rate><![CDATA[1]]></Rate>
+						<MessageType><![CDATA[dist < 5]]></MessageType>
+						<DefaultTransition>false</DefaultTransition>
+						<FilterType><![CDATA[unconditionally]]></FilterType>
+						<EqualsExpression><![CDATA[Sample_Message]]></EqualsExpression>
+						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
+					</Properties>	
+				</StatechartElement>
+				<StatechartElement Class="Transition" ParentState="ROOT_NODE">
+					<Id>1309941234360</Id>
+					<Name><![CDATA[MissionCompleted]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>200</Y>
+					<Label><X>40</X><Y>20</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>20</Y></Point>
+					</Points>
+					<Properties Source="1309941200110" Target="1194341545278" Trigger="timeout">
+						<Action><![CDATA[//updateVelocityFlyBack();
+if ( target != null ){
+  target.emptyThisAsset(); // pokidaem cel
+}
+updateVelocityBack(); // uletaem obratno na bazu]]></Action>
+						<Timeout><![CDATA[10 // tipa pokrushil 5 edinic vremeni modelnogo i uletaem obratno na bazu, tut nado razobratsya kak sootnositsya eto vremya ]]></Timeout>
+						<Condition><![CDATA[dist < 5 // esli doleteli do celi menee chem na 5 metrov]]></Condition>
+						<Rate><![CDATA[1]]></Rate>
+						<MessageType><![CDATA[dist < 5]]></MessageType>
+						<DefaultTransition>false</DefaultTransition>
+						<FilterType><![CDATA[unconditionally]]></FilterType>
+						<EqualsExpression><![CDATA[Sample_Message]]></EqualsExpression>
+						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
+					</Properties>	
+				</StatechartElement>
+			</StatechartElements>
+			<Functions>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1194343097501</Id>
+					<Name><![CDATA[updateVelocity]]></Name>
+					<Description><![CDATA[Posle togo kak vibrana cel, zadaem kurs poleta tak skazat']]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>230</X><Y>330</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[x=initialBase.x;
+y=initialBase.y;
+
+initialBase.capacity--;
+
+tx = target.x;
+ty = target.y;
+
+vx = tx-x;
+vy = ty-y;
+
+double v1 = Math.sqrt( vx*vx + vy*vy );
+
+vx *= v/v1;
+vy *= v/v1;
+
+if ( vx < 0 ) {
+	vx *= -1;
+	vy *= -1;
+}]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[AeroBase]]></ReturnType>
+					<Id>1309901997736</Id>
+					<Name><![CDATA[chooseBase]]></Name>
+					<Description><![CDATA[Vibiraem sluchajnim obrazom bazu, na kotoroj esche est' samoleti]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>230</X><Y>300</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[return (AeroBase)getOwner();
+]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1309935420251</Id>
+					<Name><![CDATA[updateVelocityBack]]></Name>
+					<Description><![CDATA[Kogda dostigli celi, letim obratno na bazu]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>230</X><Y>370</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[tx=initialBase.x;
+ty=initialBase.y;
+
+x = target.x;
+y = target.y;
+
+vx = tx-x;
+vy = ty-y;
+
+double v1 = Math.sqrt( vx*vx + vy*vy );
+
+vx *= v/v1;
+vy *= v/v1;
+
+target.capacity++;
+]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1309941097094</Id>
+					<Name><![CDATA[updateVelocityStop]]></Name>
+					<Description><![CDATA[Kogda dostigli celi, letim obratno na bazu]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>230</X><Y>400</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[vx = 0;
+vy = 0;
+
+target.capacity--;]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1311116649579</Id>
+					<Name><![CDATA[updateVelocitySpeed]]></Name>
+					<Description><![CDATA[Posle togo kak vibrana cel, zadaem kurs poleta tak skazat']]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>360</X><Y>330</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[tx = target.x;
+ty = target.y;
+
+vx = tx-x;
+vy = ty-y;
+
+double v1 = Math.sqrt( vx*vx + vy*vy );
+
+vx *= v/v1;
+vy *= v/v1;
+
+if ( vx < 0 ) {
+	vx *= -1;
+	vy *= -1;
+}]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1311116904758</Id>
+					<Name><![CDATA[updateVelocityBackSpeed]]></Name>
+					<Description><![CDATA[Kogda dostigli celi, letim obratno na bazu]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>363</X><Y>368</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[tx=initialBase.x;
+ty=initialBase.y;
+
+vx = tx-x;
+vy = ty-y;
+
+double v1 = Math.sqrt( vx*vx + vy*vy );
+
+vx *= v/v1;
+vy *= v/v1;
+]]></Body>
+				</Function>
+			</Functions>
+			<Shapes>
+				<Group>
+					<Id>1194341545228</Id>
+					<Name><![CDATA[Pivot1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[x]]></XCode>
+					<YCode><![CDATA[y]]></YCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<Rotation>0.0</Rotation>
+					<RotationCode><![CDATA[Math.atan( vy/vx )]]></RotationCode>
+			<Shapes>
+				<Image>
+					<Id>1194341545229</Id>
+					<Name><![CDATA[Image1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-16</X><Y>-16</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<VisibleCode><![CDATA[x > 10]]></VisibleCode>
+					<OnClickCode><![CDATA[getEngine().getPresentation().setPresentable( this );]]></OnClickCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>32</Width>
+					<Height>32</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[enemy.png]]></ImageFile>
+						<ImageFile><![CDATA[helicopter-icon2.png]]></ImageFile>
+						<ImageFile><![CDATA[enemyb.png]]></ImageFile>
+					</ImageFiles>
+					<ImageIndexCode><![CDATA[//isBurning() ? 1 : 0]]></ImageIndexCode>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+			</Shapes>
+				</Group>
+				<Text>
+					<Id>1311115455362</Id>
+					<Name><![CDATA[Text6]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>300</X><Y>130</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777088</Color>
+					<Text><![CDATA[Aircraft velocity:]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>11</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>RIGHT</Alignment>
+				</Text>
+				<Text>
+					<Id>1311115464988</Id>
+					<Name><![CDATA[Text]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>310</X><Y>130</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777088</Color>
+					<Text><![CDATA[123]]></Text>
+					<TextCode><![CDATA[v]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>11</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Shapes>
+			<Controls>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1311115455456</Id>
+					<Name><![CDATA[Slider]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>340</X><Y>130</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<BasicProperties Width="20" Height="120" 
+				AsObject="true">
+                        <EmbeddedIcon>false</EmbeddedIcon>				
+						<FillColor/>
+						<ActionCode><![CDATA[if (aircraftBehaviour.isStateActive(Flying)){
+	updateVelocitySpeed();
+}
+if (aircraftBehaviour.isStateActive(FlyOut)){
+	updateVelocityBackSpeed();
+}]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[aircraftVelocity]]></DefaultValueCode>
+						<Orientation>VERTICAL</Orientation>
+						<MinValue><![CDATA[1]]></MinValue>
+						<MaxValue><![CDATA[50]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>v</Link>
+					</ExtendedProperties>
+				</Control>
+			</Controls>
+		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1194341545180</Id>
+			<Name><![CDATA[AreaOperation]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Generic>false</Generic>
+			<GenericParameters><![CDATA[T]]></GenericParameters>
+			<GenericParametersLabel><![CDATA[Generic parameters:]]></GenericParametersLabel>
+			<SamplesToKeep>100</SamplesToKeep>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+
+
+			</AgentProperties>
+
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+				<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+			</DatasetsCreationProperties>
+
+			<Variables>
+				<Variable Class="PlainVariable">
+					<Id>1310676498056</Id>
+					<Name><![CDATA[inAircraft]]></Name>
+					<Description><![CDATA[Tipa skol;ko samoletov v dannij moment nahoditsya nad etoi celju]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>480</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue><![CDATA[0]]></InitialValue>                 	
+					</Properties>
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1178649489080</Id>
+					<Name><![CDATA[x]]></Name>
+					<Description><![CDATA[Koordinata x tekushej bazi, berutsya iz tablichnoj funkcii  baseLocations v main]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>360</X><Y>80</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1178649489078</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[x]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1178649489083</Id>
+					<Name><![CDATA[y]]></Name>
+					<Description><![CDATA[Koordinata y tekushej bazi, berutsya iz tablichnoj funkcii  baseLocations v main]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>360</X><Y>100</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1178649489081</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[y]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1178649489086</Id>
+					<Name><![CDATA[capacity]]></Name>
+					<Description><![CDATA[Vmestitmost' bazi - pokazivaet skol'ko samoletov imejutsya v dannij moment na baze..... nachal'noe chislo zadaetsya iz Main]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>360</X><Y>120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1178649489084</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1310672831023</Id>
+					<Name><![CDATA[assetIndex]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>360</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[int]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310672831007</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1311270952954</Id>
+					<Name><![CDATA[capacityMax]]></Name>
+					<Description><![CDATA[Vmestitmost' bazi - pokazivaet skol'ko samoletov imejutsya v dannij moment na baze..... nachal'noe chislo zadaetsya iz Main]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>360</X><Y>140</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1311270952952</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+			<StatechartElements>
+				<StatechartElement Class="State" ParentState="ROOT_NODE">
+					<Id>1194341545224</Id>
+					<Name><![CDATA[Normal]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>60</Y>
+					<Label><X>10</X><Y>13</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Width="60" Height="20">
+						<FillColor/>
+					</Properties>
+				</StatechartElement>
+				<StatechartElement Class="State" ParentState="ROOT_NODE">
+					<Id>1194341545225</Id>
+					<Name><![CDATA[Burning]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>100</Y>
+					<Label><X>10</X><Y>13</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties Width="60" Height="20">
+						<FillColor/>
+					</Properties>
+				</StatechartElement>
+				<StatechartElement Class="EntryPoint" ParentState="ROOT_NODE">
+					<Id>1194341545220</Id>
+					<Name><![CDATA[assetBehaviour]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>80</X><Y>30</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>30</Y></Point>
+					</Points>
+					<Properties Target="1194341545224">
+					</Properties>	
+				</StatechartElement>
+				<StatechartElement Class="Transition" ParentState="ROOT_NODE">
+					<Id>1194341545221</Id>
+					<Name><![CDATA[Transition1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>60</X><Y>80</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>20</Y></Point>
+					</Points>
+					<Properties Source="1194341545224" Target="1194341545225" Trigger="message">
+						<Timeout><![CDATA[1]]></Timeout>
+						<Condition><![CDATA[false]]></Condition>
+						<Rate><![CDATA[1]]></Rate>
+						<MessageType><![CDATA[String]]></MessageType>
+						<DefaultTransition>false</DefaultTransition>
+						<FilterType><![CDATA[equalsTo]]></FilterType>
+						<EqualsExpression><![CDATA["HIT"]]></EqualsExpression>
+						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
+					</Properties>	
+				</StatechartElement>
+				<StatechartElement Class="Transition" ParentState="ROOT_NODE">
+					<Id>1194341545222</Id>
+					<Name><![CDATA[Transition2]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>100</X><Y>100</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>-20</Y></Point>
+					</Points>
+					<Properties Source="1194341545225" Target="1194341545224" Trigger="message">
+						<Timeout><![CDATA[5]]></Timeout>
+						<Condition><![CDATA[true]]></Condition>
+						<Rate><![CDATA[1]]></Rate>
+						<Guard><![CDATA[inAircraft==0;]]></Guard>
+						<MessageType><![CDATA[String]]></MessageType>
+						<DefaultTransition>false</DefaultTransition>
+						<FilterType><![CDATA[equalsTo]]></FilterType>
+						<EqualsExpression><![CDATA["EMPTY"]]></EqualsExpression>
+						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
+					</Properties>	
+				</StatechartElement>
+			</StatechartElements>
+			<Functions>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[boolean]]></ReturnType>
+					<Id>1194341992218</Id>
+					<Name><![CDATA[isAlive]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>200</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[// returns true if this asset is in Normal state
+return assetBehaviour.isStateActive( Normal );]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[boolean]]></ReturnType>
+					<Id>1194342135992</Id>
+					<Name><![CDATA[isBurning]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>200</X><Y>70</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[// returns true if this asset is in Burning state
+return assetBehaviour.isStateActive( Burning );]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1194435159880</Id>
+					<Name><![CDATA[destroyThisAsset]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>200</X><Y>120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[assetBehaviour.fireEvent( "HIT" );
+inAircraft+=1;]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1310676283541</Id>
+					<Name><![CDATA[emptyThisAsset]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>200</X><Y>140</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[assetBehaviour.fireEvent( "EMPTY" );
+inAircraft-=1;]]></Body>
+				</Function>
+			</Functions>
+			<Shapes>
+				<Image>
+					<Id>1194341545181</Id>
+					<Name><![CDATA[Image1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>20</X><Y>-10</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[x]]></XCode>
+					<YCode><![CDATA[y]]></YCode>
+					<OnClickCode><![CDATA[getEngine().getPresentation().setPresentable( this );]]></OnClickCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>28</Width>
+					<Height>30</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[Perspective-Button-Stop-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[Dragon-Radar-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[Dragon-Ball-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[Cute-Ball-Stop-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[Cute-Ball-Search-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[AOstatus1.png]]></ImageFile>
+						<ImageFile><![CDATA[AOstatus2.png]]></ImageFile>
+						<ImageFile><![CDATA[asset.png]]></ImageFile>
+						<ImageFile><![CDATA[assetb.png]]></ImageFile>
+					</ImageFiles>
+					<ImageIndexCode><![CDATA[isAlive() ? 0 : isBurning() ? 1 : 1]]></ImageIndexCode>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Text>
+					<Id>1311270815969</Id>
+					<Name><![CDATA[text39]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-10</X><Y>-30</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[x]]></XCode>
+					<YCode><![CDATA[y-15]]></YCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-65536</Color>
+					<Text><![CDATA[Capacity: 123]]></Text>
+					<TextCode><![CDATA["Capacity: " + format( capacityMax-capacity )+ "/" + format( capacityMax)]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Shapes>
+		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1194341545371</Id>
+			<Name><![CDATA[Main]]></Name>
+			<Description><![CDATA[pervoe chislo - eto nomer bazi, vtoroe chislo - eto vmestimost' bazi, maksimalnaja]]></Description> 
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Generic>false</Generic>
+			<GenericParameters><![CDATA[T]]></GenericParameters>
+			<GenericParametersLabel><![CDATA[Generic parameters:]]></GenericParametersLabel>
+			<SamplesToKeep>100</SamplesToKeep>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+
+
+			</AgentProperties>
+
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+				<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+			</DatasetsCreationProperties>
+
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1178648680275</Id>
+					<Name><![CDATA[initA]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-460</X><Y>170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[HyperArray]]></Type>        
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[XDimensionA]]></ClassName>
+						</Dimension>
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[XDimensionB]]></ClassName>
+						</Dimension>
+						<DefaultValue><![CDATA[{1, 2, 3, 3, 5, 2, 0, 100, 2, 0, 190, 330}]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1178648680273</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>HYPER_ARRAY_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1178648680283</Id>
+					<Name><![CDATA[initB]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-410</X><Y>170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[HyperArray]]></Type>        
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[XDimensionB]]></ClassName>
+						</Dimension>
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[YDimensionB]]></ClassName>
+						</Dimension>
+						<DefaultValue><![CDATA[{1, 2, 3, 4, 4, 2, 3, 1, 200, 300, 302, 233, 0, 190, 330, 400}]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1178648680281</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>HYPER_ARRAY_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1178650261580</Id>
+					<Name><![CDATA[initC]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-360</X><Y>170</Y>
+					<Label><X>16</X><Y>3</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[HyperArray]]></Type>        
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[XDimensionA]]></ClassName>
+						</Dimension>
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[XDimensionB]]></ClassName>
+						</Dimension>
+						<DefaultValue><![CDATA[{4, 4, 8, 6, 12, 10, 8, 5, 6, 2, 1, 4}]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1178650261578</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>HYPER_ARRAY_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1178661215330</Id>
+					<Name><![CDATA[initX]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-290</X><Y>170</Y>
+					<Label><X>16</X><Y>3</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[HyperArray]]></Type>        
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[XD]]></ClassName>
+						</Dimension>
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[YD]]></ClassName>
+						</Dimension>
+						<DefaultValue><![CDATA[{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1178661215328</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>HYPER_ARRAY_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1310597958250</Id>
+					<Name><![CDATA[unuMatrix]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-460</X><Y>250</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[HyperArray]]></Type>        
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[XD]]></ClassName>
+						</Dimension>
+						<Dimension>
+							<PackageName><![CDATA[air_defence_system2]]></PackageName>
+							<ClassName><![CDATA[YD]]></ClassName>
+						</Dimension>
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310597958248</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>HYPER_ARRAY_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1311533103845</Id>
+					<Name><![CDATA[radarZone]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-160</X><Y>100</Y>
+					<Label><X>20</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[10]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1311533103843</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[radarZone]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="CollectionVariable">
+					<Id>1310499240347</Id>
+					<Name><![CDATA[couples2]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-460</X><Y>310</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" AccessType="public" StaticVariable="false">
+						<CollectionClass><![CDATA[java.util.ArrayList]]></CollectionClass>
+						<ElementClass><![CDATA[Couple]]></ElementClass>
+					</Properties>   
+				</Variable>
+				<Variable Class="CollectionVariable">
+					<Id>1310584051609</Id>
+					<Name><![CDATA[cikl]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-350</X><Y>310</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" AccessType="public" StaticVariable="false">
+						<CollectionClass><![CDATA[java.util.ArrayList]]></CollectionClass>
+						<ElementClass><![CDATA[Cikl]]></ElementClass>
+					</Properties>   
+				</Variable>
+			</Variables>
+			<Events>
+				<Event>
+					<Id>1310500584987</Id>
+					<Name><![CDATA[calculateOptimalPlan]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-390</X><Y>210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="timeout" Mode="occuresOnce">
+						<Timeout><![CDATA[1]]></Timeout>
+						<Rate><![CDATA[1]]></Rate>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1310500584861</OccurrenceDate>												
+						<OccurrenceTime><![CDATA[0]]></OccurrenceTime>												
+						<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+						<Action><![CDATA[firstPlan();
+nextPlan();]]></Action>
+					</Properties>
+				</Event>
+			</Events>
+			<Functions>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1178657172266</Id>
+					<Name><![CDATA[firstPlan]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-460</X><Y>210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[// 3=XDimensionA.size()
+// 4=XDimensionB.size()
+double[] h = new double[XDimensionA.size()]; // hochu cherez parametr zadavat razmernost a ne v lob
+double[] v = new double[XDimensionB.size()];
+
+double temp=0;
+int temp_j = 0;
+int temp_i = 0;
+
+
+for (int i = 0; i <XDimensionA.size(); i++) {
+ 		initX.set(min(initA.get(i+1,2)-h[i],initB.get(i+1,2)-v[i]),i,i); 
+ 		
+ 		temp=initX.get(i,i);
+ 		
+ 		h[i]=h[i]+temp;
+ 		v[i]=v[i]+temp;
+ 		
+ 		temp_j = 0;
+ 		temp_i = 0;
+ 		
+ 		
+ 		while(h[i]<initA.get(i+1,2)){
+ 			temp_j++;
+ 			initX.set(min(initA.get(i+1,2)-h[i],initB.get(i+1+temp_j,2)-v[i+temp_j]),i,i+temp_j); 
+ 			h[i]=h[i]+initX.get(i,i+temp_j);
+ 			v[i+temp_j]=v[i+temp_j]+initX.get(i,i+temp_j);
+ 		}
+ 		while(v[i]<initB.get(i+1,2)){
+ 			temp_j++;
+ 			initX.set(min(initA.get(i+1+temp_j,2)-h[i+temp_j],initB.get(i+1,2))-v[i],i+temp_j,i); 
+ 			v[i]=v[i]+initX.get(i+temp_j,i);
+ 			h[i+temp_j]=h[i+temp_j]+initX.get(i+temp_j,i);
+ 		}
+}
+
+double criteria=0;
+for (int i = 0; i <XDimensionA.size(); i++) {
+ for (int j = 0; j <XDimensionB.size(); j++) {
+  criteria=criteria+initX.get(i,j)*initC.get(i+1,j+1);
+ }
+}
+
+// return criteria;
+]]></Body>
+				</Function>
+				<Function AccessType="public" StaticFunction="false">
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1310329182022</Id>
+					<Name><![CDATA[nextPlan]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-460</X><Y>230</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[// 3=XDimensionA.size()
+// 4=XDimensionB.size()
+double[] u  = new double[XDimensionA.size()]; // hochu cherez parametr zadavat razmernost a ne v lob
+double[] u0  = new double[XDimensionA.size()];
+double[] nu = new double[XDimensionB.size()];
+double[][] unu = new double[XDimensionA.size()][XDimensionB.size()];
+int vihod=0; // vihod =1 , vijdem iz while, t.e. naidet optimal, esli =0, to prodolzhaem
+
+int i,j;
+int temp_i, control_i=1;
+int temp_j, control_j=1;
+
+double maxElement =1;
+int maxElementI=0;
+int maxElementJ=0;
+double sign=1;
+Couple check_couple;
+Cikl tcikl; 
+
+//while(maxElement>0){//ishem optimalnij plan do teh por poka vse v matrice ne budet <=0
+while(vihod<3){
+
+u=u0; // zanulaem massiv, mozhen i ne nado
+//u[0]=u[1]=u[2]=0;
+//nu[0]=nu[1]=nu[2]=nu[3]=0;
+
+
+nu[0]=0;
+u[0]=initC.get(1,1);
+
+i=0;
+j=0;
+temp_i=0;
+temp_j=0;
+
+// stroim vectora u i nu:
+for (int m = 0; m <XDimensionA.size(); m++) {
+for (int n = m; n <XDimensionB.size(); n++) {
+
+i=m;
+j=n;
+while(initX.get(i,j)>0){ // hodim po stolbcu
+ if (i>0 && i>= temp_i){
+  u[i]=initC.get(i+1,j+1)-nu[j];
+ }
+ i++;
+}
+temp_i=max(i,temp_i);
+
+i=m;
+j=n;
+while(initX.get(i,j)>0){ // hodim po stroke
+ if (j>0 && j>= temp_j){
+  nu[j]=initC.get(i+1,j+1)-u[i];
+ }
+ j++;
+}
+temp_j=max(j,temp_j);
+m=min(temp_i,temp_j);
+}
+}
+
+//nasli nuzhnoe u,vivodim na ekran:
+traceln("vector u");
+traceln(u[0]);
+traceln(u[1]);
+traceln(u[2]);
+
+//nasli nuzhnoe nu,vivodim na ekran:
+traceln("vector nu");
+traceln(nu[0]);
+traceln(nu[1]);
+traceln(nu[2]);
+traceln(nu[3]);
+
+
+maxElement =0;
+maxElementI=0;
+maxElementJ=0;
+
+couples2.clear(); // iznachalno par net, poetomu chistim esli chto bilo...
+for ( i = 0; i <couples.size(); i++){
+ remove_couples( couples.get( i ) );
+} 
+
+for ( i = 0; i <XDimensionA.size(); i++) {
+ for ( j = 0; j <XDimensionB.size(); j++) {
+  // nahodim maksimalnij element matrici (U+NU-C) i ego index:
+  unu[i][j]=u[i]+nu[j]-initC.get(i+1,j+1);
+  unuMatrix.set(unu[i][j],i,j);
+  if (maxElement<unu[i][j]){
+   maxElement=unu[i][j];
+   maxElementI=i;
+   maxElementJ=j;
+  }
+  // zapolnyaem massiv nenulevimi elementami X
+  if (initX.get(i,j)>0){
+   Couple couple = add_couples(i,j,initX.get(i,j));
+   couples2.add(couple);
+  }
+ }
+}
+
+
+traceln("size nenulevih");
+traceln(couples2.size());
+traceln("Max element i ego indeksi");
+traceln(maxElement);
+traceln(maxElementI);
+traceln(maxElementJ);
+
+if (maxElement>0){
+control_i=maxElementI+1;
+control_j=maxElementJ+1;
+
+int check_i=maxElementI;
+int check_j=maxElementJ;
+
+cikl.clear(); // iznachalno cikl pustoi, poetomu ubiraem vse elementi
+for ( i = 0; i <cikles.size(); i++){
+ remove_cikles( cikles.get( i ) );
+} 
+
+tcikl = add_cikles(maxElementI,maxElementJ,-1); 
+cikl.add(tcikl);// dobavlyaem pervuju vershinu, kotoraja soderzhit maksimalnij element
+sign=-1;
+while(control_i>0 || control_j>0){ // ishem zamknutij cikl
+
+ for (int k = 1; k <= couples2.size(); k++) {
+   check_couple=couples2.get(k-1);
+ //for (Couple check_couple : couples) {
+	if (sign == -1){ // nechetnie shagi
+	 if (check_couple.j==check_j){
+	  tcikl = add_cikles(check_couple.i,check_couple.j,sign*(-1));
+	  cikl.add(tcikl);
+	  if(check_couple.i==maxElementI){
+	   control_i=control_i-(check_couple.i+1);
+	  }
+	  else{
+	   control_i=control_i+(check_couple.i+1);
+	  } 	   
+	  control_j=control_j-(check_couple.j+1);
+	  sign=sign*(-1);
+	  
+	  check_i=check_couple.i;
+	  check_j=check_couple.j;
+	  
+	  couples2.remove(check_couple); // udalili iz kollekcii
+	  remove_couples(check_couple);  // udalili iz Klassa
+	  //continue; // voobshe k=0 chtob zanovo 
+	  k=0; // chtob s pervogo elementa massiva nachali rabotat
+	 }
+	}
+	else{ // chetnie shagi
+	 if (check_couple.i==check_i){
+	  tcikl = add_cikles(check_couple.i,check_couple.j,sign*(-1));
+	  cikl.add(tcikl);
+	  control_i=control_i-(check_couple.i+1);
+	  control_j=control_j+(check_couple.j+1);
+	  sign=sign*(-1);
+	  
+	  check_i=check_couple.i;
+	  check_j=check_couple.j;
+	  
+	  couples2.remove(check_couple); // udalili iz kollekcii
+	  remove_couples(check_couple);  // udalili iz Klassa
+	  //continue; // voobshe k=0 chtob zanovo 
+	  k=0; // chtob s pervogo elementa massiva nachali rabotat
+	 }
+	}
+    if (control_i==0 && control_j==0){// vihodim iz cikla for, nashli nuzhnij nam zamknutij cikl
+	 traceln("Nashli zamknutij cikl");
+     break;
+    } 
+	
+	if (k == couples2.size() && control_i + control_j > 0){// znachit poslednij element bil vibran nepravilno, udalyaem ego iz kollekcii i iz klassa, i nachinaem perebirat' s predidushego 
+	 cikl.remove(tcikl); // udalili iz kollekcii ciklov poslednij nepravilnij
+	 remove_cikles(tcikl);  // udalili iz Klassa ciklov
+	 
+	 couples2.remove(check_couple); // udalili iz kollekcii
+	 remove_couples(check_couple);  // udalili iz Klassa
+	 
+	 tcikl=cikl.get(cikl.size()-1); // teper' budem iskat prodolzhenie k etomu elementu, poslednij v cikle, posle udalenija nepravilnogo
+	 check_i=tcikl.i;
+	 check_j=tcikl.j;	 
+	 k=0; // nachnem iskat zanovo
+	}
+	
+ }
+traceln("Nashli zamknutij cikl");
+traceln(control_i);
+traceln(control_j);
+// teper' nado izmenit znachenija plana na Theta!
+//nahodim theta
+tcikl=cikl.get(1);
+double theta =initX.get(tcikl.i,tcikl.j); 
+for (int k = 1; k < cikl.size(); k=k+2) {
+ tcikl=cikl.get(k);
+ if (theta>initX.get(tcikl.i,tcikl.j)){theta=initX.get(tcikl.i,tcikl.j);}
+}
+traceln("Theta");
+traceln(theta);
+// menyaem plan na plus i minus theta:
+double tempValue;
+for (int k = 0; k < cikl.size(); k++) {
+ tcikl=cikl.get(k);
+ tempValue=initX.get(tcikl.i,tcikl.j);
+ initX.set(tempValue-tcikl.sign*theta,tcikl.i,tcikl.j); 
+}
+
+double criteria=0;
+for (i = 0; i <3; i++) {
+ for (j = 0; j <4; j++) {
+  criteria=criteria+initX.get(i,j)*initC.get(i+1,j+1);
+ }
+}
+traceln("Criteria");
+traceln(criteria);
+
+for ( i = 0; i <couples.size(); i++){
+ remove_couples( couples.get( i ) );
+} 
+couples2.clear(); // iznachalno par net, poetomu chistim esli chto bilo...
+
+for ( i = 0; i <cikles.size(); i++){
+ remove_cikles( cikles.get( i ) );
+} 
+cikl.clear(); // iznachalno cikl pustoi, poetomu ubiraem vse elementi
+
+}// otnositsya k while(control_i>0 || control_j>0)
+//maxElement =0;
+vihod++;
+}// otnositsya k if (maxElement>0)
+} // otnositsya k while(maxElement>0) 
+]]></Body>
+				</Function>
+			</Functions>
+			<TableFunctions>
+				<TableFunction AccessType="public" StaticFunction="true">
+					<Id>1311271591763</Id>
+					<Name><![CDATA[radarLocations]]></Name>
+					<Description><![CDATA[(x,y) koordinati radarov]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-160</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<InterpolationMethod>NONE</InterpolationMethod>
+					<OutOfRangeBehaviour>ERROR</OutOfRangeBehaviour>
+					<OutOfRangeCustomValue><![CDATA[0.0]]></OutOfRangeCustomValue>
+					<ApproximationOrder><![CDATA[1]]></ApproximationOrder>
+// arguments and values
+					<Argument><![CDATA[750.0]]></Argument>
+					<Argument><![CDATA[650.0]]></Argument>
+					<Value><![CDATA[150]]></Value>
+					<Value><![CDATA[300]]></Value>
+				</TableFunction>
+			</TableFunctions>
+			<EmbeddedObjects>
+				<EmbeddedObject>
+					<Id>1194341545393</Id>
+					<Name><![CDATA[assets]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-150</X><Y>310</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<PresentationId>1194341545383</PresentationId>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[air_defence_system2]]></PackageName>
+						<ClassName><![CDATA[AreaOperation]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParametersSubstitute><![CDATA[]]></GenericParametersSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[x]]></Name>
+							<Value><![CDATA[initB.get(index+1,3)  ]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[y]]></Name>
+							<Value><![CDATA[initB.get(index+1,4)  ]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+							<Value><![CDATA[initB.get(index+1,2)  ]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[assetIndex]]></Name>
+							<Value><![CDATA[index]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacityMax]]></Name>
+							<Value><![CDATA[initB.get(index+1,2) ]]></Value>	
+						</Parameter>
+					</Parameters>
+					<Replication><![CDATA[initB.size()/4]]></Replication>	
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1309881585500</Id>
+					<Name><![CDATA[bases]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-150</X><Y>280</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<PresentationId>1309881587906</PresentationId>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[air_defence_system2]]></PackageName>
+						<ClassName><![CDATA[AeroBase]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParametersSubstitute><![CDATA[]]></GenericParametersSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[x]]></Name>
+							<Value><![CDATA[initA.get(index+1,3)  ]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[y]]></Name>
+							<Value><![CDATA[initA.get(index+1,4)  ]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+							<Value><![CDATA[initA.get(index+1,2)  ]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[baseNumber]]></Name>
+							<Value><![CDATA[index]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacityMax]]></Name>
+							<Value><![CDATA[initA.get(index+1,2)]]></Value>	
+						</Parameter>
+					</Parameters>
+					<Replication><![CDATA[initA.size()/4]]></Replication>	
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1310495360244</Id>
+					<Name><![CDATA[couples]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-460</X><Y>290</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[air_defence_system2]]></PackageName>
+						<ClassName><![CDATA[Couple]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParametersSubstitute><![CDATA[]]></GenericParametersSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[i]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[j]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[coupleValue]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+					</Parameters>
+					<Replication><![CDATA[0]]></Replication>	
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1310584582076</Id>
+					<Name><![CDATA[cikles]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-350</X><Y>290</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[air_defence_system2]]></PackageName>
+						<ClassName><![CDATA[Cikl]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParametersSubstitute><![CDATA[]]></GenericParametersSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[i]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[j]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[sign]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+					</Parameters>
+					<Replication><![CDATA[0]]></Replication>	
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1311271720793</Id>
+					<Name><![CDATA[radar]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-160</X><Y>80</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<PresentationId>1311271723981</PresentationId>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[air_defence_system2]]></PackageName>
+						<ClassName><![CDATA[Radar]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParametersSubstitute><![CDATA[]]></GenericParametersSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[x]]></Name>
+							<Value><![CDATA[radarLocations.getArguments()[index]]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[y]]></Name>
+							<Value><![CDATA[radarLocations.getValues()[index]]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[zone]]></Name>
+							<Value><![CDATA[radarZone]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[updateTime]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+					</Parameters>
+					<Replication><![CDATA[2]]></Replication>	
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+				</EmbeddedObject>
+			</EmbeddedObjects>
+			<Shapes>
+				<Group>
+					<Id>1194427953146</Id>
+					<Name><![CDATA[group]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>230</X><Y>40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<Rotation>0.0</Rotation>
+			<Shapes>
+				<Rectangle>
+					<Id>1194341545391</Id>
+					<Name><![CDATA[rectangle1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-230</X><Y>-40</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineStyle>SOLID</LineStyle>
+					<Width>950</Width>
+					<Height>550</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-5192482</FillColor>
+				</Rectangle>
+				<Polyline>
+					<Id>1198222538141</Id>
+					<Name><![CDATA[polyLine1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>260</X><Y>-40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>30</LineWidth>
+					<LineColor>-2628882</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor/>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>-20</X><Y>40</Y></Point>
+					   <Point><X>-41</X><Y>66</Y></Point>
+					   <Point><X>-41</X><Y>86</Y></Point>
+					   <Point><X>-49</X><Y>126</Y></Point>
+					   <Point><X>-57</X><Y>151</Y></Point>
+					   <Point><X>-35</X><Y>170</Y></Point>
+					   <Point><X>-49</X><Y>189</Y></Point>
+					   <Point><X>-66</X><Y>208</Y></Point>
+					   <Point><X>-70</X><Y>243</Y></Point>
+					   <Point><X>-67</X><Y>261</Y></Point>
+					   <Point><X>-50</X><Y>276</Y></Point>
+					   <Point><X>-20</X><Y>280</Y></Point>
+					   <Point><X>20</X><Y>270</Y></Point>
+					   <Point><X>10</X><Y>300</Y></Point>
+					   <Point><X>30</X><Y>310</Y></Point>
+					   <Point><X>40</X><Y>290</Y></Point>
+					   <Point><X>90</X><Y>240</Y></Point>
+					   <Point><X>110</X><Y>250</Y></Point>
+					   <Point><X>90</X><Y>310</Y></Point>
+					   <Point><X>50</X><Y>330</Y></Point>
+					   <Point><X>20</X><Y>330</Y></Point>
+					   <Point><X>0</X><Y>330</Y></Point>
+					   <Point><X>-20</X><Y>340</Y></Point>
+					   <Point><X>-40</X><Y>350</Y></Point>
+					   <Point><X>-40</X><Y>360</Y></Point>
+					   <Point><X>-40</X><Y>370</Y></Point>
+					   <Point><X>-46</X><Y>380</Y></Point>
+					   <Point><X>-59</X><Y>388</Y></Point>
+					   <Point><X>-60</X><Y>410</Y></Point>
+					   <Point><X>-50</X><Y>430</Y></Point>
+					   <Point><X>-20</X><Y>460</Y></Point>
+					   <Point><X>20</X><Y>460</Y></Point>
+					   <Point><X>70</X><Y>400</Y></Point>
+					   <Point><X>100</X><Y>390</Y></Point>
+					   <Point><X>100</X><Y>440</Y></Point>
+					   <Point><X>130</X><Y>450</Y></Point>
+					   <Point><X>150</X><Y>500</Y></Point>
+					   <Point><X>140</X><Y>520</Y></Point>
+					   <Point><X>140</X><Y>540</Y></Point>
+					   <Point><X>130</X><Y>550</Y></Point>
+					</Points>
+					<Closed>false</Closed>
+				</Polyline>
+				<Polyline>
+					<Id>1198223679188</Id>
+					<Name><![CDATA[polyLine2]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>260</X><Y>-40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>15</LineWidth>
+					<LineColor>-1644806</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor/>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>-20</X><Y>40</Y></Point>
+					   <Point><X>-41</X><Y>66</Y></Point>
+					   <Point><X>-41</X><Y>86</Y></Point>
+					   <Point><X>-49</X><Y>126</Y></Point>
+					   <Point><X>-57</X><Y>151</Y></Point>
+					   <Point><X>-35</X><Y>170</Y></Point>
+					   <Point><X>-49</X><Y>189</Y></Point>
+					   <Point><X>-66</X><Y>208</Y></Point>
+					   <Point><X>-70</X><Y>243</Y></Point>
+					   <Point><X>-67</X><Y>261</Y></Point>
+					   <Point><X>-50</X><Y>276</Y></Point>
+					   <Point><X>-20</X><Y>280</Y></Point>
+					   <Point><X>20</X><Y>270</Y></Point>
+					   <Point><X>10</X><Y>300</Y></Point>
+					   <Point><X>30</X><Y>310</Y></Point>
+					   <Point><X>40</X><Y>290</Y></Point>
+					   <Point><X>90</X><Y>240</Y></Point>
+					   <Point><X>110</X><Y>250</Y></Point>
+					   <Point><X>90</X><Y>310</Y></Point>
+					   <Point><X>50</X><Y>330</Y></Point>
+					   <Point><X>20</X><Y>330</Y></Point>
+					   <Point><X>0</X><Y>330</Y></Point>
+					   <Point><X>-20</X><Y>340</Y></Point>
+					   <Point><X>-40</X><Y>350</Y></Point>
+					   <Point><X>-40</X><Y>360</Y></Point>
+					   <Point><X>-40</X><Y>370</Y></Point>
+					   <Point><X>-46</X><Y>380</Y></Point>
+					   <Point><X>-59</X><Y>388</Y></Point>
+					   <Point><X>-60</X><Y>410</Y></Point>
+					   <Point><X>-50</X><Y>430</Y></Point>
+					   <Point><X>-20</X><Y>460</Y></Point>
+					   <Point><X>20</X><Y>460</Y></Point>
+					   <Point><X>70</X><Y>400</Y></Point>
+					   <Point><X>100</X><Y>390</Y></Point>
+					   <Point><X>100</X><Y>440</Y></Point>
+					   <Point><X>130</X><Y>450</Y></Point>
+					   <Point><X>150</X><Y>500</Y></Point>
+					   <Point><X>140</X><Y>520</Y></Point>
+					   <Point><X>140</X><Y>540</Y></Point>
+					   <Point><X>130</X><Y>550</Y></Point>
+					</Points>
+					<Closed>false</Closed>
+				</Polyline>
+				<Polyline>
+					<Id>1194341545390</Id>
+					<Name><![CDATA[polyLine]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>260</X><Y>-40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor>-1120086</FillColor>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>-28</X><Y>50</Y></Point>
+					   <Point><X>-41</X><Y>66</Y></Point>
+					   <Point><X>-41</X><Y>86</Y></Point>
+					   <Point><X>-49</X><Y>126</Y></Point>
+					   <Point><X>-57</X><Y>151</Y></Point>
+					   <Point><X>-35</X><Y>170</Y></Point>
+					   <Point><X>-49</X><Y>189</Y></Point>
+					   <Point><X>-66</X><Y>208</Y></Point>
+					   <Point><X>-70</X><Y>243</Y></Point>
+					   <Point><X>-67</X><Y>261</Y></Point>
+					   <Point><X>-50</X><Y>276</Y></Point>
+					   <Point><X>-20</X><Y>280</Y></Point>
+					   <Point><X>20</X><Y>270</Y></Point>
+					   <Point><X>10</X><Y>300</Y></Point>
+					   <Point><X>30</X><Y>310</Y></Point>
+					   <Point><X>40</X><Y>290</Y></Point>
+					   <Point><X>90</X><Y>240</Y></Point>
+					   <Point><X>110</X><Y>250</Y></Point>
+					   <Point><X>90</X><Y>310</Y></Point>
+					   <Point><X>50</X><Y>330</Y></Point>
+					   <Point><X>20</X><Y>330</Y></Point>
+					   <Point><X>0</X><Y>330</Y></Point>
+					   <Point><X>-20</X><Y>340</Y></Point>
+					   <Point><X>-40</X><Y>350</Y></Point>
+					   <Point><X>-40</X><Y>360</Y></Point>
+					   <Point><X>-40</X><Y>370</Y></Point>
+					   <Point><X>-46</X><Y>380</Y></Point>
+					   <Point><X>-59</X><Y>388</Y></Point>
+					   <Point><X>-60</X><Y>410</Y></Point>
+					   <Point><X>-50</X><Y>430</Y></Point>
+					   <Point><X>-20</X><Y>460</Y></Point>
+					   <Point><X>20</X><Y>460</Y></Point>
+					   <Point><X>70</X><Y>400</Y></Point>
+					   <Point><X>100</X><Y>390</Y></Point>
+					   <Point><X>100</X><Y>440</Y></Point>
+					   <Point><X>130</X><Y>450</Y></Point>
+					   <Point><X>150</X><Y>500</Y></Point>
+					   <Point><X>140</X><Y>520</Y></Point>
+					   <Point><X>140</X><Y>540</Y></Point>
+					   <Point><X>130</X><Y>550</Y></Point>
+					   <Point><X>460</X><Y>550</Y></Point>
+					   <Point><X>460</X><Y>0</Y></Point>
+					</Points>
+					<Closed>false</Closed>
+				</Polyline>
+				<Polyline>
+					<Id>1198223716563</Id>
+					<Name><![CDATA[polyLine3]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>260</X><Y>-40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>5</LineWidth>
+					<LineColor>-1331</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor/>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>-20</X><Y>40</Y></Point>
+					   <Point><X>-41</X><Y>66</Y></Point>
+					   <Point><X>-41</X><Y>86</Y></Point>
+					   <Point><X>-49</X><Y>126</Y></Point>
+					   <Point><X>-57</X><Y>151</Y></Point>
+					   <Point><X>-35</X><Y>170</Y></Point>
+					   <Point><X>-49</X><Y>189</Y></Point>
+					   <Point><X>-66</X><Y>208</Y></Point>
+					   <Point><X>-70</X><Y>243</Y></Point>
+					   <Point><X>-67</X><Y>261</Y></Point>
+					   <Point><X>-50</X><Y>276</Y></Point>
+					   <Point><X>-20</X><Y>280</Y></Point>
+					   <Point><X>20</X><Y>270</Y></Point>
+					   <Point><X>10</X><Y>300</Y></Point>
+					   <Point><X>30</X><Y>310</Y></Point>
+					   <Point><X>40</X><Y>290</Y></Point>
+					   <Point><X>90</X><Y>240</Y></Point>
+					   <Point><X>110</X><Y>250</Y></Point>
+					   <Point><X>90</X><Y>310</Y></Point>
+					   <Point><X>50</X><Y>330</Y></Point>
+					   <Point><X>20</X><Y>330</Y></Point>
+					   <Point><X>0</X><Y>330</Y></Point>
+					   <Point><X>-20</X><Y>340</Y></Point>
+					   <Point><X>-40</X><Y>350</Y></Point>
+					   <Point><X>-40</X><Y>360</Y></Point>
+					   <Point><X>-40</X><Y>370</Y></Point>
+					   <Point><X>-46</X><Y>380</Y></Point>
+					   <Point><X>-59</X><Y>388</Y></Point>
+					   <Point><X>-60</X><Y>410</Y></Point>
+					   <Point><X>-50</X><Y>430</Y></Point>
+					   <Point><X>-20</X><Y>460</Y></Point>
+					   <Point><X>20</X><Y>460</Y></Point>
+					   <Point><X>70</X><Y>400</Y></Point>
+					   <Point><X>100</X><Y>390</Y></Point>
+					   <Point><X>100</X><Y>440</Y></Point>
+					   <Point><X>130</X><Y>450</Y></Point>
+					   <Point><X>150</X><Y>500</Y></Point>
+					   <Point><X>140</X><Y>520</Y></Point>
+					   <Point><X>140</X><Y>540</Y></Point>
+					   <Point><X>130</X><Y>550</Y></Point>
+					</Points>
+					<Closed>false</Closed>
+				</Polyline>
+				<EmbeddedObjectPresentation>
+					<Id>1194341545383</Id>
+					<Name><![CDATA[assets_presentation]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>550</X><Y>290</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[0]]></XCode>
+					<YCode><![CDATA[0]]></YCode>
+					<ReplicationCode><![CDATA[assets.size()]]></ReplicationCode>
+					<AsObject>false</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<Rotation>0.0</Rotation>
+				</EmbeddedObjectPresentation>
+				<EmbeddedObjectPresentation>
+					<Id>1309881587906</Id>
+					<Name><![CDATA[bases_presentation]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[0]]></XCode>
+					<YCode><![CDATA[0]]></YCode>
+					<ReplicationCode><![CDATA[bases.size()]]></ReplicationCode>
+					<AsObject>false</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<Rotation>0.0</Rotation>
+				</EmbeddedObjectPresentation>
+			</Shapes>
+				</Group>
+				<EmbeddedObjectPresentation>
+					<Id>1311271723981</Id>
+					<Name><![CDATA[radar_презентация]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>190</X><Y>260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[0]]></XCode>
+					<YCode><![CDATA[0]]></YCode>
+					<ReplicationCode><![CDATA[radar.size()]]></ReplicationCode>
+					<AsObject>false</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<Rotation>0.0</Rotation>
+				</EmbeddedObjectPresentation>
+				<Text>
+					<Id>1311532977047</Id>
+					<Name><![CDATA[Text5]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>700</X><Y>60</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-11388155</Color>
+					<Text><![CDATA[Radar coverage zone radius:]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>11</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>RIGHT</Alignment>
+				</Text>
+				<Text>
+					<Id>1311532977049</Id>
+					<Name><![CDATA[Text7]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>720</X><Y>60</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-11388155</Color>
+					<Text><![CDATA[123]]></Text>
+					<TextCode><![CDATA[radarZone]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>11</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Shapes>
+			<Controls>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1311532977063</Id>
+					<Name><![CDATA[Slider5]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>740</X><Y>60</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<BasicProperties Width="190" Height="20" 
+				AsObject="true">
+                        <EmbeddedIcon>false</EmbeddedIcon>				
+						<FillColor/>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[radarZone]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[10]]></MinValue>
+						<MaxValue><![CDATA[200]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>radarZone</Link>
+					</ExtendedProperties>
+				</Control>
+			</Controls>
+		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1309881500203</Id>
+			<Name><![CDATA[AeroBase]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Generic>false</Generic>
+			<GenericParameters><![CDATA[T]]></GenericParameters>
+			<GenericParametersLabel><![CDATA[Generic parameters:]]></GenericParametersLabel>
+			<SamplesToKeep>100</SamplesToKeep>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+
+
+			</AgentProperties>
+
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+				<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+			</DatasetsCreationProperties>
+
+			<Variables>
+				<Variable Class="PlainVariable">
+					<Id>1310667032976</Id>
+					<Name><![CDATA[target]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>260</X><Y>90</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[AreaOperation]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1309881623897</Id>
+					<Name><![CDATA[x]]></Name>
+					<Description><![CDATA[Koordinata x tekushej bazi, berutsya iz tablichnoj funkcii  baseLocations v main]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>110</X><Y>40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1309881623895</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[x]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1309881623900</Id>
+					<Name><![CDATA[y]]></Name>
+					<Description><![CDATA[Koordinata y tekushej bazi, berutsya iz tablichnoj funkcii  baseLocations v main]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>110</X><Y>60</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1309881623898</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[y]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1309935995205</Id>
+					<Name><![CDATA[capacity]]></Name>
+					<Description><![CDATA[Vmestitmost' bazi - pokazivaet skol'ko samoletov imejutsya v dannij moment na baze..... nachal'noe chislo zadaetsya iz Main]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>110</X><Y>90</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1309935995203</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1310672172103</Id>
+					<Name><![CDATA[baseNumber]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>110</X><Y>20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[int]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310672172101</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1311271021626</Id>
+					<Name><![CDATA[capacityMax]]></Name>
+					<Description><![CDATA[Vmestitmost' bazi - pokazivaet skol'ko samoletov imejutsya v dannij moment na baze..... nachal'noe chislo zadaetsya iz Main]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>110</X><Y>110</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1311271021624</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+			<Events>
+				<Event>
+					<Id>1310600687053</Id>
+					<Name><![CDATA[aircraftLauncher]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>260</X><Y>30</Y>
+					<Label><X>10</X><Y>-1</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="timeout" Mode="occuresOnce">
+						<Timeout><![CDATA[0]]></Timeout>
+						<Rate><![CDATA[20//aircraftIntensity]]></Rate>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1194341545361</OccurrenceDate>												
+						<OccurrenceTime><![CDATA[1]]></OccurrenceTime>												
+						<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+						<Action><![CDATA[// v zavisimosti ot nomera bazi baseNomer, zapuskaetsya sootvetstvujushee Planu initX 
+//kolichestvo samoletov
+for (int j = 0; j <4; j++) { 
+  if (get_Main().initX.get(baseNumber,j)>0){ // esli po planu s bazi v j-uju cel kolichestvo samoletov >0,  zapuskaem ih
+    for (int k = 0; k <get_Main().initX.get(baseNumber,j); k++) {
+     target= get_Main().assets.get(j);// vibrali nuzhnuju nam cel
+	 UAVs aircraft = add_aircrafts(4*(1+k),target); 
+	 // zapuskaem samolet v bazu target, i kak vidish raznuju skorost im daju... 
+	 //t.k. oni odnovremenno zapuskajutsya, to esli cel odna - to kazhetsya chto odin samolet 
+	 //letit, ibo kartinka nakladivaetsya, poetomu raznie skorosti zadal
+	}
+  } 
+}
+
+]]></Action>
+					</Properties>
+				</Event>
+			</Events>
+			<EmbeddedObjects>
+				<EmbeddedObject>
+					<Id>1310600673381</Id>
+					<Name><![CDATA[aircrafts]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>260</X><Y>60</Y>
+					<Label><X>11</X><Y>1</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<PresentationId>1310668198022</PresentationId>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[air_defence_system2]]></PackageName>
+						<ClassName><![CDATA[UAVs]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParametersSubstitute><![CDATA[]]></GenericParametersSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[v]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[target]]></Name>
+							<Value><![CDATA[]]></Value>	
+						</Parameter>
+					</Parameters>
+					<Replication><![CDATA[0]]></Replication>	
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+				</EmbeddedObject>
+			</EmbeddedObjects>
+			<Shapes>
+				<Group>
+					<Id>1309896668468</Id>
+					<Name><![CDATA[group]]></Name>
+					<Description><![CDATA[Karinka bazi]]></Description> 
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>20</X><Y>30</Y>
+					<Label><X>1</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[x]]></XCode>
+					<YCode><![CDATA[y]]></YCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<Rotation>0.0</Rotation>
+			<Shapes>
+				<Rectangle>
+					<Id>1309881534141</Id>
+					<Name><![CDATA[rectangle]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>-3</X><Y>-1</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[0]]></XCode>
+					<YCode><![CDATA[0]]></YCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-1</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<Width>6</Width>
+					<Height>2</Height>
+					<Rotation>0.0</Rotation>
+					<RotationCode><![CDATA[0]]></RotationCode>
+					<FillColor>-1120086</FillColor>
+				</Rectangle>
+				<Line>
+					<Id>1309896538891</Id>
+					<Name><![CDATA[line1]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>-4</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[2]]></XCode>
+					<YCode><![CDATA[2]]></YCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineStyle>DASHED</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<RotationCode><![CDATA[0]]></RotationCode>
+					<Dx>6</Dx>
+					<Dy>0</Dy>
+				</Line>
+				<Line>
+					<Id>1311143977282</Id>
+					<Name><![CDATA[line2]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>-4</X><Y>1</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[8]]></XCode>
+					<YCode><![CDATA[8]]></YCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineStyle>DASHED</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<RotationCode><![CDATA[0]]></RotationCode>
+					<Dx>6</Dx>
+					<Dy>0</Dy>
+				</Line>
+				<Image>
+					<Id>1311144740844</Id>
+					<Name><![CDATA[ImageAir]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-10</X><Y>-3</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>32</Width>
+					<Height>32</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[Perspective-Button-Favorites-iconSmal.png]]></ImageFile>
+						<ImageFile><![CDATA[Perspective-Button-Favorites-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[airbase.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+				<Text>
+					<Id>1311271002453</Id>
+					<Name><![CDATA[text39]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-40</X><Y>30</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777088</Color>
+					<Text><![CDATA[Capacity: 123]]></Text>
+					<TextCode><![CDATA["Capacity: " + format( capacity )+ "/" + format( capacityMax )]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Shapes>
+				</Group>
+				<EmbeddedObjectPresentation>
+					<Id>1310668198022</Id>
+					<Name><![CDATA[aircrafts_Презентация]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>20</X><Y>20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<ReplicationCode><![CDATA[aircrafts.size()]]></ReplicationCode>
+					<AsObject>false</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<Rotation>0.0</Rotation>
+				</EmbeddedObjectPresentation>
+			</Shapes>
+		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1178649248375</Id>
+			<Name><![CDATA[InitAllData]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Generic>false</Generic>
+			<GenericParameters><![CDATA[T]]></GenericParameters>
+			<GenericParametersLabel><![CDATA[Generic parameters:]]></GenericParametersLabel>
+			<SamplesToKeep>100</SamplesToKeep>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+
+
+			</AgentProperties>
+
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+				<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+			</DatasetsCreationProperties>
+
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1178649252767</Id>
+					<Name><![CDATA[temp]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>40</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1178649252765</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1310495250994</Id>
+			<Name><![CDATA[Couple]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Generic>false</Generic>
+			<GenericParameters><![CDATA[T]]></GenericParameters>
+			<GenericParametersLabel><![CDATA[Generic parameters:]]></GenericParametersLabel>
+			<SamplesToKeep>100</SamplesToKeep>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+
+
+			</AgentProperties>
+
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+				<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+			</DatasetsCreationProperties>
+
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1310495278293</Id>
+					<Name><![CDATA[i]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[int]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310495278291</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1310495288137</Id>
+					<Name><![CDATA[j]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>60</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[int]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310495288135</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1310579068123</Id>
+					<Name><![CDATA[coupleValue]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>90</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310579068107</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1310584499295</Id>
+			<Name><![CDATA[Cikl]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Generic>false</Generic>
+			<GenericParameters><![CDATA[T]]></GenericParameters>
+			<GenericParametersLabel><![CDATA[Generic parameters:]]></GenericParametersLabel>
+			<SamplesToKeep>100</SamplesToKeep>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+
+
+			</AgentProperties>
+
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+				<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+			</DatasetsCreationProperties>
+
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1310584510953</Id>
+					<Name><![CDATA[i]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>60</X><Y>40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[int]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310584510951</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1310584516219</Id>
+					<Name><![CDATA[j]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>60</X><Y>60</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[int]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310584516217</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1310584521657</Id>
+					<Name><![CDATA[sign]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>60</X><Y>80</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1310584521655</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1311271608591</Id>
+			<Name><![CDATA[Radar]]></Name>
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Generic>false</Generic>
+			<GenericParameters><![CDATA[T]]></GenericParameters>
+			<GenericParametersLabel><![CDATA[Generic parameters:]]></GenericParametersLabel>
+			<SamplesToKeep>100</SamplesToKeep>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+
+
+			</AgentProperties>
+
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+				<RecurrenceCode><![CDATA[1]]></RecurrenceCode>
+			</DatasetsCreationProperties>
+
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1311271608633</Id>
+					<Name><![CDATA[x]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>400</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1311271608631</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[x]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1311271608636</Id>
+					<Name><![CDATA[y]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>400</X><Y>70</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1311271608634</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[y]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1311271608642</Id>
+					<Name><![CDATA[zone]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>400</X><Y>110</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[200]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1311271608640</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[zone]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1311271608648</Id>
+					<Name><![CDATA[updateTime]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>400</X><Y>140</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Dynamic="false">
+						<Type><![CDATA[double]]></Type>        
+						<DefaultValue><![CDATA[3]]></DefaultValue>
+						<ParameterEditor>
+							<Id>1311271608646</Id>
+							<Name><![CDATA[]]></Name>
+							<ExcludeFromBuild>false</ExcludeFromBuild>
+							<Label><![CDATA[updateTime]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<Separator>false</Separator>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+			<Shapes>
+				<Group>
+					<Id>1311271608599</Id>
+					<Name><![CDATA[Pivot1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>120</X><Y>120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<XCode><![CDATA[x]]></XCode>
+					<YCode><![CDATA[y]]></YCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<Rotation>0.0</Rotation>
+					<RotationCode><![CDATA[time()/updateTime]]></RotationCode>
+			<Shapes>
+				<Arc>
+					<Id>1311271608601</Id>
+					<Name><![CDATA[arc]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>4</X><Y>0</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<OnClickCode><![CDATA[getEngine().getPresentation().setPresentable( this );]]></OnClickCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<Rotation>0.0</Rotation>
+					<RadiusX>10</RadiusX>
+					<RadiusY>13</RadiusY>
+					<StartAngle>0.0</StartAngle>
+					<Angle>180.0</Angle>
+					<FillColor>-16777216</FillColor>
+				</Arc>
+				<Oval>
+					<Id>1311271608607</Id>
+					<Name><![CDATA[oval]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>4</X><Y>0</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<OnClickCode><![CDATA[getEngine().getPresentation().setPresentable( this );]]></OnClickCode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-8388608</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<RadiusX>3</RadiusX>
+					<RadiusY>13</RadiusY>
+					<Rotation>0.0</Rotation>
+					<FillColor>-65281</FillColor>
+				</Oval>
+				<Line>
+					<Id>1311271608609</Id>
+					<Name><![CDATA[line2]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-9</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<LineWidth>1</LineWidth>
+					<LineColor>-65536</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>16</Dx>
+					<Dy>-6</Dy>
+				</Line>
+				<Line>
+					<Id>1311271608611</Id>
+					<Name><![CDATA[line1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-9</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<LineWidth>1</LineWidth>
+					<LineColor>-65536</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>11</Dx>
+					<Dy>-8</Dy>
+				</Line>
+				<Line>
+					<Id>1311271608613</Id>
+					<Name><![CDATA[line3]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-9</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<LineWidth>1</LineWidth>
+					<LineColor>-65536</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>16</Dx>
+					<Dy>5</Dy>
+				</Line>
+				<Line>
+					<Id>1311271608615</Id>
+					<Name><![CDATA[line]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-9</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<LineWidth>1</LineWidth>
+					<LineColor>-65536</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>10</Dx>
+					<Dy>6</Dy>
+				</Line>
+				<Polyline>
+					<Id>1311271608617</Id>
+					<Name><![CDATA[polyline]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>-9</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-1308590080</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor>-16744448</FillColor>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>3</X><Y>-2</Y></Point>
+					   <Point><X>3</X><Y>2</Y></Point>
+					</Points>
+					<Closed>true</Closed>
+				</Polyline>
+				<Arc>
+					<Id>1311271608622</Id>
+					<Name><![CDATA[arc1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineStyle>SOLID</LineStyle>
+					<Rotation>0.0</Rotation>
+					<RadiusX>100</RadiusX>
+					<RadiusXCode><![CDATA[zone]]></RadiusXCode>
+					<RadiusY>100</RadiusY>
+					<RadiusYCode><![CDATA[zone]]></RadiusYCode>
+					<StartAngle>-100.0</StartAngle>
+					<Angle>20.0</Angle>
+					<FillColor>1576992768</FillColor>
+				</Arc>
+				<Oval>
+					<Id>1311271608624</Id>
+					<Name><![CDATA[Oval1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-1912668160</LineColor>
+					<LineStyle>DOTTED</LineStyle>
+					<RadiusX>100</RadiusX>
+					<RadiusXCode><![CDATA[zone]]></RadiusXCode>
+					<RadiusY>100</RadiusY>
+					<RadiusYCode><![CDATA[zone]]></RadiusYCode>
+					<Rotation>0.0</Rotation>
+					<FillColor>704577536</FillColor>
+				</Oval>
+			</Shapes>
+				</Group>
+			</Shapes>
+		</ActiveObjectClass>
+	</ActiveObjectClasses>
+	<Experiments>	
+		<!--   =========   Simulation Experiment   ========  -->
+		<SimulationExperiment ActiveObjectClassId="1194341545371">
+			<Id>1194341545403</Id>
+			<Name><![CDATA[Simulation]]></Name>
+			<Description><![CDATA[The model presents the task assignment problem for UAVs.
+The problem is to distribute UAVs to service requests that should
+be serviced.
+The challenge is to complete all service requests with following information for
+each zone of area of operations: number of UAVs required, location where UAVs
+need to visit, earliest time of 1-st visit, latest time of 1-st visit, minimum duration
+per visit, maximum interval between visits, time of last visit in order to minimize the
+total fuel consumption.
+In the simulation the operator can interactively control
+several parameters of the model, including the UAVs velocity.]]></Description> 
+			<ExcludeFromBuild>false</ExcludeFromBuild>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
+			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<Frame>
+				<X>0</X>
+				<Y>0</Y>
+				<Width>950</Width>
+				<Height>550</Height>
+			</Frame>
+			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
+			<MaximumMemory>64</MaximumMemory>
+			<RandomSeed>false</RandomSeed>
+			<SeedValue>5</SeedValue>
+			<RandomSelectionModeForSimultaneousEvents>false</RandomSelectionModeForSimultaneousEvents>
+			<VmArgs><![CDATA[]]></VmArgs>
+			<AbsoluteAccuracy>1.0E-4</AbsoluteAccuracy>
+			<RelativeAccuracy>1.0E-4</RelativeAccuracy>
+			<TimeAccuracy>1.0E-5</TimeAccuracy>
+			<FixedTimeStep>0.0010</FixedTimeStep>
+			<LoadRootFromSnapshot>false</LoadRootFromSnapshot>
+			<SnapshotFile></SnapshotFile>
+			<DiffEquationsNumericalMethod>EULER</DiffEquationsNumericalMethod>
+			<MixedEquationsNumericalMethod>RK45_NEWTON</MixedEquationsNumericalMethod>
+			<AlgebraicEquationsNumericalMethod>MODIFIED_NEWTON</AlgebraicEquationsNumericalMethod>
+			<Shapes>
+				<Rectangle>
+					<Id>1198490385126</Id>
+					<Name><![CDATA[rectangle1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineStyle>SOLID</LineStyle>
+					<Width>950</Width>
+					<Height>550</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-5192482</FillColor>
+				</Rectangle>
+				<Polyline>
+					<Id>1198490385141</Id>
+					<Name><![CDATA[polyLine1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>529</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>30</LineWidth>
+					<LineColor>-2628882</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor/>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>-18</X><Y>40</Y></Point>
+					   <Point><X>-38</X><Y>66</Y></Point>
+					   <Point><X>-38</X><Y>86</Y></Point>
+					   <Point><X>-45</X><Y>126</Y></Point>
+					   <Point><X>-52</X><Y>151</Y></Point>
+					   <Point><X>-32</X><Y>170</Y></Point>
+					   <Point><X>-45</X><Y>189</Y></Point>
+					   <Point><X>-60</X><Y>208</Y></Point>
+					   <Point><X>-64</X><Y>243</Y></Point>
+					   <Point><X>-61</X><Y>261</Y></Point>
+					   <Point><X>-46</X><Y>276</Y></Point>
+					   <Point><X>-18</X><Y>280</Y></Point>
+					   <Point><X>18</X><Y>270</Y></Point>
+					   <Point><X>9</X><Y>300</Y></Point>
+					   <Point><X>27</X><Y>310</Y></Point>
+					   <Point><X>37</X><Y>290</Y></Point>
+					   <Point><X>82</X><Y>240</Y></Point>
+					   <Point><X>101</X><Y>250</Y></Point>
+					   <Point><X>82</X><Y>310</Y></Point>
+					   <Point><X>46</X><Y>330</Y></Point>
+					   <Point><X>18</X><Y>330</Y></Point>
+					   <Point><X>0</X><Y>330</Y></Point>
+					   <Point><X>-18</X><Y>340</Y></Point>
+					   <Point><X>-37</X><Y>350</Y></Point>
+					   <Point><X>-37</X><Y>360</Y></Point>
+					   <Point><X>-37</X><Y>370</Y></Point>
+					   <Point><X>-42</X><Y>380</Y></Point>
+					   <Point><X>-54</X><Y>388</Y></Point>
+					   <Point><X>-55</X><Y>410</Y></Point>
+					   <Point><X>-46</X><Y>430</Y></Point>
+					   <Point><X>-18</X><Y>460</Y></Point>
+					   <Point><X>18</X><Y>460</Y></Point>
+					   <Point><X>64</X><Y>400</Y></Point>
+					   <Point><X>92</X><Y>390</Y></Point>
+					   <Point><X>92</X><Y>440</Y></Point>
+					   <Point><X>119</X><Y>450</Y></Point>
+					   <Point><X>137</X><Y>500</Y></Point>
+					   <Point><X>128</X><Y>520</Y></Point>
+					   <Point><X>128</X><Y>540</Y></Point>
+					   <Point><X>119</X><Y>550</Y></Point>
+					</Points>
+					<Closed>false</Closed>
+				</Polyline>
+				<Polyline>
+					<Id>1198490385143</Id>
+					<Name><![CDATA[polyLine2]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>529</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>15</LineWidth>
+					<LineColor>-1644806</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor/>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>-18</X><Y>40</Y></Point>
+					   <Point><X>-38</X><Y>66</Y></Point>
+					   <Point><X>-38</X><Y>86</Y></Point>
+					   <Point><X>-45</X><Y>126</Y></Point>
+					   <Point><X>-52</X><Y>151</Y></Point>
+					   <Point><X>-32</X><Y>170</Y></Point>
+					   <Point><X>-45</X><Y>189</Y></Point>
+					   <Point><X>-60</X><Y>208</Y></Point>
+					   <Point><X>-64</X><Y>243</Y></Point>
+					   <Point><X>-61</X><Y>261</Y></Point>
+					   <Point><X>-46</X><Y>276</Y></Point>
+					   <Point><X>-18</X><Y>280</Y></Point>
+					   <Point><X>18</X><Y>270</Y></Point>
+					   <Point><X>9</X><Y>300</Y></Point>
+					   <Point><X>27</X><Y>310</Y></Point>
+					   <Point><X>37</X><Y>290</Y></Point>
+					   <Point><X>82</X><Y>240</Y></Point>
+					   <Point><X>101</X><Y>250</Y></Point>
+					   <Point><X>82</X><Y>310</Y></Point>
+					   <Point><X>46</X><Y>330</Y></Point>
+					   <Point><X>18</X><Y>330</Y></Point>
+					   <Point><X>0</X><Y>330</Y></Point>
+					   <Point><X>-18</X><Y>340</Y></Point>
+					   <Point><X>-37</X><Y>350</Y></Point>
+					   <Point><X>-37</X><Y>360</Y></Point>
+					   <Point><X>-37</X><Y>370</Y></Point>
+					   <Point><X>-42</X><Y>380</Y></Point>
+					   <Point><X>-54</X><Y>388</Y></Point>
+					   <Point><X>-55</X><Y>410</Y></Point>
+					   <Point><X>-46</X><Y>430</Y></Point>
+					   <Point><X>-18</X><Y>460</Y></Point>
+					   <Point><X>18</X><Y>460</Y></Point>
+					   <Point><X>64</X><Y>400</Y></Point>
+					   <Point><X>92</X><Y>390</Y></Point>
+					   <Point><X>92</X><Y>440</Y></Point>
+					   <Point><X>119</X><Y>450</Y></Point>
+					   <Point><X>137</X><Y>500</Y></Point>
+					   <Point><X>128</X><Y>520</Y></Point>
+					   <Point><X>128</X><Y>540</Y></Point>
+					   <Point><X>119</X><Y>550</Y></Point>
+					</Points>
+					<Closed>false</Closed>
+				</Polyline>
+				<Polyline>
+					<Id>1198490385145</Id>
+					<Name><![CDATA[polyLine]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>529</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor>-1120086</FillColor>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>-26</X><Y>50</Y></Point>
+					   <Point><X>-38</X><Y>66</Y></Point>
+					   <Point><X>-38</X><Y>86</Y></Point>
+					   <Point><X>-45</X><Y>126</Y></Point>
+					   <Point><X>-52</X><Y>151</Y></Point>
+					   <Point><X>-32</X><Y>170</Y></Point>
+					   <Point><X>-45</X><Y>189</Y></Point>
+					   <Point><X>-60</X><Y>208</Y></Point>
+					   <Point><X>-64</X><Y>243</Y></Point>
+					   <Point><X>-61</X><Y>261</Y></Point>
+					   <Point><X>-46</X><Y>276</Y></Point>
+					   <Point><X>-18</X><Y>280</Y></Point>
+					   <Point><X>18</X><Y>270</Y></Point>
+					   <Point><X>9</X><Y>300</Y></Point>
+					   <Point><X>27</X><Y>310</Y></Point>
+					   <Point><X>37</X><Y>290</Y></Point>
+					   <Point><X>82</X><Y>240</Y></Point>
+					   <Point><X>101</X><Y>250</Y></Point>
+					   <Point><X>82</X><Y>310</Y></Point>
+					   <Point><X>46</X><Y>330</Y></Point>
+					   <Point><X>18</X><Y>330</Y></Point>
+					   <Point><X>0</X><Y>330</Y></Point>
+					   <Point><X>-18</X><Y>340</Y></Point>
+					   <Point><X>-37</X><Y>350</Y></Point>
+					   <Point><X>-37</X><Y>360</Y></Point>
+					   <Point><X>-37</X><Y>370</Y></Point>
+					   <Point><X>-42</X><Y>380</Y></Point>
+					   <Point><X>-54</X><Y>388</Y></Point>
+					   <Point><X>-55</X><Y>410</Y></Point>
+					   <Point><X>-46</X><Y>430</Y></Point>
+					   <Point><X>-18</X><Y>460</Y></Point>
+					   <Point><X>18</X><Y>460</Y></Point>
+					   <Point><X>64</X><Y>400</Y></Point>
+					   <Point><X>92</X><Y>390</Y></Point>
+					   <Point><X>92</X><Y>440</Y></Point>
+					   <Point><X>119</X><Y>450</Y></Point>
+					   <Point><X>137</X><Y>500</Y></Point>
+					   <Point><X>128</X><Y>520</Y></Point>
+					   <Point><X>128</X><Y>540</Y></Point>
+					   <Point><X>119</X><Y>550</Y></Point>
+					   <Point><X>421</X><Y>550</Y></Point>
+					   <Point><X>421</X><Y>0</Y></Point>
+					</Points>
+					<Closed>false</Closed>
+				</Polyline>
+				<Polyline>
+					<Id>1198490385147</Id>
+					<Name><![CDATA[polyLine3]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>529</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<ZHeight>0</ZHeight>
+					<LineWidth>5</LineWidth>
+					<LineColor>-1331</LineColor>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<FillColor/>
+					<Points>
+					   <Point><X>0</X><Y>0</Y></Point>
+					   <Point><X>-18</X><Y>40</Y></Point>
+					   <Point><X>-38</X><Y>66</Y></Point>
+					   <Point><X>-38</X><Y>86</Y></Point>
+					   <Point><X>-45</X><Y>126</Y></Point>
+					   <Point><X>-52</X><Y>151</Y></Point>
+					   <Point><X>-32</X><Y>170</Y></Point>
+					   <Point><X>-45</X><Y>189</Y></Point>
+					   <Point><X>-60</X><Y>208</Y></Point>
+					   <Point><X>-64</X><Y>243</Y></Point>
+					   <Point><X>-61</X><Y>261</Y></Point>
+					   <Point><X>-46</X><Y>276</Y></Point>
+					   <Point><X>-18</X><Y>280</Y></Point>
+					   <Point><X>18</X><Y>270</Y></Point>
+					   <Point><X>9</X><Y>300</Y></Point>
+					   <Point><X>27</X><Y>310</Y></Point>
+					   <Point><X>37</X><Y>290</Y></Point>
+					   <Point><X>82</X><Y>240</Y></Point>
+					   <Point><X>101</X><Y>250</Y></Point>
+					   <Point><X>82</X><Y>310</Y></Point>
+					   <Point><X>46</X><Y>330</Y></Point>
+					   <Point><X>18</X><Y>330</Y></Point>
+					   <Point><X>0</X><Y>330</Y></Point>
+					   <Point><X>-18</X><Y>340</Y></Point>
+					   <Point><X>-37</X><Y>350</Y></Point>
+					   <Point><X>-37</X><Y>360</Y></Point>
+					   <Point><X>-37</X><Y>370</Y></Point>
+					   <Point><X>-42</X><Y>380</Y></Point>
+					   <Point><X>-54</X><Y>388</Y></Point>
+					   <Point><X>-55</X><Y>410</Y></Point>
+					   <Point><X>-46</X><Y>430</Y></Point>
+					   <Point><X>-18</X><Y>460</Y></Point>
+					   <Point><X>18</X><Y>460</Y></Point>
+					   <Point><X>64</X><Y>400</Y></Point>
+					   <Point><X>92</X><Y>390</Y></Point>
+					   <Point><X>92</X><Y>440</Y></Point>
+					   <Point><X>119</X><Y>450</Y></Point>
+					   <Point><X>137</X><Y>500</Y></Point>
+					   <Point><X>128</X><Y>520</Y></Point>
+					   <Point><X>128</X><Y>540</Y></Point>
+					   <Point><X>119</X><Y>550</Y></Point>
+					</Points>
+					<Closed>false</Closed>
+				</Polyline>
+				<Text>
+					<Id>1198222196422</Id>
+					<Name><![CDATA[text5]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>50</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16776961</Color>
+					<Text><![CDATA[Task assignment problem 
+for UAVs]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>28</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1198222196424</Id>
+					<Name><![CDATA[text2]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>140</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[The model presents the task assignment problem for UAVs.
+The problem is to distribute UAVs to service requests that should
+be serviced.
+The challenge is to complete all service requests with following information for
+each zone of area of operations: number of UAVs required, location where UAVs
+need to visit, earliest time of 1-st visit, latest time of 1-st visit, minimum duration
+per visit, maximum interval between visits, time of last visit in order to minimize the
+total fuel consumption.
+In the simulation the operator can interactively control
+several parameters of the model, including the UAVs velocity.]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>11</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Image>
+					<Id>1198222196469</Id>
+					<Name><![CDATA[image1]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>390</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>170</Width>
+					<Height>70</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[200px-NationalUniversityofSingapore_svg.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Text>
+					<Id>1198489822922</Id>
+					<Name><![CDATA[text3]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>500</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-13421773</Color>
+					<Text><![CDATA[Temasek Laboratories,
+Aeronautical Sciences Division,
+© 2011
+
+]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>9</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Image>
+					<Id>1311145938485</Id>
+					<Name><![CDATA[image]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>290</X><Y>420</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>48</Width>
+					<Height>48</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[Perspective-Button-Favorites-icon.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+				<Image>
+					<Id>1311228108090</Id>
+					<Name><![CDATA[image2]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>540</X><Y>350</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>32</Width>
+					<Height>32</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[Perspective-Button-Stop-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[Perspective-Button-Favorites-icon.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+				<Image>
+					<Id>1311228128042</Id>
+					<Name><![CDATA[image3]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>540</X><Y>102</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>32</Width>
+					<Height>32</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[Perspective-Button-Stop-icon.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+				<Image>
+					<Id>1311228234362</Id>
+					<Name><![CDATA[image4]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>518</X><Y>200</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>32</Width>
+					<Height>32</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[Dragon-Radar-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[Perspective-Button-Stop-icon.png]]></ImageFile>
+						<ImageFile><![CDATA[Perspective-Button-Favorites-icon.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+				<Image>
+					<Id>1311228348806</Id>
+					<Name><![CDATA[image5]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>321</X><Y>394</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>32</Width>
+					<Height>32</Height>
+					<Rotation>315.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[enemy.png]]></ImageFile>
+						<ImageFile><![CDATA[helicopter-iconBIG.png]]></ImageFile>
+						<ImageFile><![CDATA[Perspective-Button-Favorites-icon.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+				<Image>
+					<Id>1311232642945</Id>
+					<Name><![CDATA[image6]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>348</X><Y>348</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>32</Width>
+					<Height>32</Height>
+					<Rotation>315.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[enemy.png]]></ImageFile>
+						<ImageFile><![CDATA[helicopter-iconBIG.png]]></ImageFile>
+						<ImageFile><![CDATA[Perspective-Button-Favorites-icon.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+				<Image>
+					<Id>1311232661537</Id>
+					<Name><![CDATA[image7]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>535</X><Y>386</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Lock>false</Lock>
+					<ShowIn3D>false</ShowIn3D>
+					<Z>0</Z>
+					<Width>32</Width>
+					<Height>32</Height>
+					<Rotation>150.0</Rotation>
+					<ImageFiles>
+						<ImageFile><![CDATA[enemy.png]]></ImageFile>
+						<ImageFile><![CDATA[helicopter-iconBIG.png]]></ImageFile>
+						<ImageFile><![CDATA[Perspective-Button-Favorites-icon.png]]></ImageFile>
+					</ImageFiles>
+					<OriginalSize>true</OriginalSize>
+				</Image>
+			</Shapes>
+			<Controls>
+				<Control Type="Button">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>0</Id>
+					<Name><![CDATA[button]]></Name>
+					<ExcludeFromBuild>false</ExcludeFromBuild>
+					<X>50</X><Y>330</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<BasicProperties Width="110" Height="30" 
+				AsObject="true">
+                        <EmbeddedIcon>false</EmbeddedIcon>				
+						<FillColor/>
+						<TextColor>-16777216</TextColor>
+						<EnableExpression><![CDATA[getState() == IDLE]]></EnableExpression>
+						<ActionCode><![CDATA[run();
+getEngine().getPresentation().setPresentable( getEngine().getRoot() );]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Run the model]]></LabelText>
+					</ExtendedProperties>
+				</Control>
+			</Controls>
+			<Parameters>			
+				<Parameter>
+					<ParameterName><![CDATA[radarParams]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[enemyIntensity]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[enemyVelocity]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[initAa1]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[parameter]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[initA]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[initB]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[initB1]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[initC1]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[initC]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[initX]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[initX1]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[u1]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[unuMatrix]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[radarZone]]></ParameterName>
+					<ParameterValue><![CDATA[]]></ParameterValue>
+				</Parameter>
+			</Parameters>			
+			<PresentationProperties 
+				EnableAdaptiveFrameManagement="true" 
+				EnableAntiAliasing="true"
+				EnablePanning="true"
+				EnableZoom="false">
+				<ExecutionMode><![CDATA[realTimeScaled]]></ExecutionMode>
+				<CpuRatio><![CDATA[ratio_1_2]]></CpuRatio>	        
+				<Title><![CDATA[Assignment Problem for UAVs : Simulation]]></Title>	
+				<FramesPerSecond><![CDATA[20.0]]></FramesPerSecond>
+				<RealTimeScale>SCALE_1</RealTimeScale>
+				<UIProperty Name="Experiment Progress" Value="false"/>
+				<UIProperty Name="Simulation Progress" Value="true"/>
+				<UIProperty Name="Statusbar Events Per Second" Value="false"/>
+				<UIProperty Name="Statusbar Frames Per Second" Value="false"/>
+				<UIProperty Name="Statusbar Memory" Value="true"/>
+				<UIProperty Name="Statusbar Model Date" Value="false"/>
+				<UIProperty Name="Statusbar Model Step" Value="false"/>
+				<UIProperty Name="Statusbar Model Time" Value="false"/>
+				<UIProperty Name="Statusbar Real Time Of Simulation" Value="true"/>
+				<UIProperty Name="Statusbar Status" Value="true"/>
+				<UIProperty Name="Toolbar Animation setup" Value="false"/>
+				<UIProperty Name="Toolbar Execution control" Value="true"/>
+				<UIProperty Name="Toolbar File" Value="false"/>
+				<UIProperty Name="Toolbar Model navigation" Value="true"/>
+				<UIProperty Name="Toolbar Time scale setup" Value="true"/>
+				<UIProperty Name="Toolbar View" Value="false"/>
+			</PresentationProperties>
+			<ModelTimeProperties 
+				UseCalendar="false">
+				<StopOption><![CDATA[Never]]></StopOption>
+				<InitialDate><![CDATA[1194341545362]]></InitialDate>	
+				<InitialTime><![CDATA[0.0]]></InitialTime>	
+				<FinalDate><![CDATA[1202981545362]]></FinalDate>	
+				<FinalTime><![CDATA[100.0]]></FinalTime>	
+				<ModelTimeUnit><![CDATA[Day]]></ModelTimeUnit>	
+			</ModelTimeProperties>
+		</SimulationExperiment>	
+	</Experiments>
+</Model>
+</AnyLogicWorkspace>
